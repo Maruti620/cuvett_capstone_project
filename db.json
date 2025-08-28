@@ -1,15 +1,9 @@
 {
   "users": [
     {
-      "id": "63a1",
-      "userName": "Prashant",
+      "id": "6986",
+      "userName": "Prashant 1",
       "userEmail": "test@gmail.com",
-      "userPassword": "123"
-    },
-    {
-      "id": "2f3a",
-      "userName": "Prashant 2",
-      "userEmail": "test2@gmail.com",
       "userPassword": "123"
     }
   ],

@@ -7,28 +7,20 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-
-
-
     <header id="main-header">
       <div class="logo">My Notes and Taks</div>
-
 
       <nav id="desktop-nav">
         <a href="#dashboard" id="nav-dashboard">Dashboard</a>
         <a href="#tasks" id="nav-tasks">Tasks</a>
         <a href="#notes" id="nav-notes">Notes</a>
-        <span id="user-info">example@gmail.com</span>
+        <span id="user-info"></span>
         <button id="logout-btn" style="display: block">Logout</button>
       </nav>
-
-      
     </header>
-<!-- chnage button style to none -->
-
+    <!-- chnage button style to none -->
 
     <main>
-
       <!-- LogIn Section -->
       <section id="login-section" class="page-section">
         <h2>Login</h2>
@@ -46,8 +38,6 @@
         </form>
       </section>
 
-
-      
       <!-- SignUp Section -->
       <section id="signup-section" class="page-section">
         <h2>Sign Up</h2>
@@ -70,11 +60,11 @@
           <div id="signup-error" class="auth-error"></div>
         </form>
       </section>
-      
+
       <!-- Dashboard Section -->
-      <section id="dashboard-section" class="page-section">this is dashboard</section>
-
-
+      <section id="dashboard-section" class="page-section">
+        this is dashboard
+      </section>
 
       <!-- Tasks Section -->
       <section id="tasks-section" class="page-section">
@@ -109,8 +99,6 @@
         </div>
         <div id="tasks-list"></div>
       </section>
-
-
 
       <!-- Notes Section -->
       <section id="notes-section" class="page-section">
@@ -151,10 +139,8 @@
         <div id="notes-list"></div>
       </section>
 
-
-
       <!-- Input Task Fields -->
-      <div id="task-modal" class="modal" style="display: none">
+      <div id="task-modal" class="modal" >
         <div class="modal-content">
           <h3 id="task-modal-title">Add Task</h3>
           <form id="add-task-form">
@@ -183,11 +169,8 @@
         </div>
       </div>
 
-
-
       <!-- Read More Section -->
       <div id="read-more-modal" class="modal" style="display: none"></div>
-
     </main>
     <script src="./app.js"></script>
   </body>
