@@ -456,20 +456,6 @@ function tasksCRUD(currentUserId) {
     };
 }
 
-/** 
- *              task = {
- *                  name: "Task Name",
- *                  description: "Task Description",
- *                  id: "unique-task-id",
- *                  userId: "user-id",
- *                   priority: "high|medium|low",
- *                  color: "task-color",
- *                  completed: false,
- *                   createdAt: new Date().toISOString()
- *              }
- * 
- * 
-*/
 function renderTaskItems(task) {
     return `
           <div class="task-item" data-color="${task.color}">
