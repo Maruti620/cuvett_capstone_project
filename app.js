@@ -1,4 +1,5 @@
 let currentUser = null;
+console.log("JS is Running")
 const sections = {
     login: document.getElementById("login-section"),
     signup: document.getElementById("signup-section"),
