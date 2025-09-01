@@ -1,5 +1,4 @@
 let currentUser = null;
-
 const sections = {
     login: document.getElementById("login-section"),
     signup: document.getElementById("signup-section"),
@@ -55,7 +54,7 @@ function route() {
                 break;
 
             case 'notes':
-                renderNotes();
+                // renderNotes();
                 break;
 
             default:
