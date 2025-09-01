@@ -329,8 +329,8 @@ function initializeApplication() {
     currentUser = storedUser ? JSON.parse(storedUser) : null;
     route();
 
-    handleSignup;
-    handleLogin;
+    handleSignup();
+    handleLogin();
 }
 
 initializeApplication();
