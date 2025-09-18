@@ -5,6 +5,12 @@
       "userName": "Prashant 1",
       "userEmail": "test@gmail.com",
       "userPassword": "123"
+    },
+    {
+      "id": "4f9f",
+      "userName": "maruti",
+      "userEmail": "maruti@xample.com",
+      "userPassword": "234"
     }
   ],
   "notes": [],

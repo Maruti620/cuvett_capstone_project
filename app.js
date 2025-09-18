@@ -1,3 +1,4 @@
+
 let currentUser = null;
 console.log("JS is Running")
 const sections = {
@@ -456,20 +457,16 @@ function tasksCRUD(currentUserId) {
     };
 }
 
-/** 
- *              task = {
- *                  name: "Task Name",
- *                  description: "Task Description",
- *                  id: "unique-task-id",
- *                  userId: "user-id",
- *                   priority: "high|medium|low",
- *                  color: "task-color",
- *                  completed: false,
- *                   createdAt: new Date().toISOString()
- *              }
- * 
- * 
-*/
+task = {
+    name: "Task Name",
+    description: "Task Description",
+    id: "unique-task-id",
+    userId: "user-id",
+    priority: "high|medium|low",
+    color: "task-color",
+    completed: false,
+    createdAt: new Date().toISOString()
+}
 function renderTaskItems(task) {
     return `
           <div class="task-item" data-color="${task.color}">
@@ -491,7 +488,3 @@ function renderTaskItems(task) {
           </div>
       `;
 }
-
-
-
-
