@@ -430,7 +430,8 @@ function tasksCRUD(currentUserId) {
         }
     }
 
-    // delete task
+    // delete task from my app
+    // delete task from backend
     async function deleteTask(taskId) {
         try {
             const response = await fetch(`${BASE_URL}/${taskId}`, {
